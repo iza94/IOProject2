@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 gem 'factory_girl', '~> 4.5.0'
 
+gem 'user_authentication', '~> 1.0.0'
+
 
 gem 'rspec', '~> 3.2.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
