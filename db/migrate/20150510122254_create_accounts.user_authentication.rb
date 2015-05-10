@@ -4,10 +4,6 @@ class CreateAccounts < ActiveRecord::Migration
     create_table :accounts do |t|
       t.string :email, :null => false
       t.string :password_digest
-      t.string :username, :null => false
-      t.text :skills
-      t.text :about 
-      t.date :birthdate, :null => false 
 
       t.timestamps
     end
