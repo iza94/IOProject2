@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'factory_girl', '~> 4.5.0'
 
+gem 'simple_form', '~> 3.1.0'
 gem 'user_authentication', '~> 1.0.0'
 
 
