@@ -1,9 +1,11 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  txtefile: MyText
   title: MyString
+  textfile: MyString
+  id: 
 
 two:
-  txtefile: MyText
   title: MyString
+  textfile: MyString
+  id: 

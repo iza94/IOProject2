@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :posts
+
   resources :users
 
   resources :secrets
@@ -9,17 +11,11 @@ Rails.application.routes.draw do
 
   resources :snack_walls
 
-  resources :chunks
-
   resources :chunk_walls
 
   resources :profiles
 
   resources :cockpits
-
-  resources :comments
-
-  resources :posts
 
   resources :blogs
 

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150510135907) do
+ActiveRecord::Schema.define(version: 20150512075317) do
 
   create_table "blogs", force: :cascade do |t|
     t.string   "title"
@@ -19,27 +19,7 @@ ActiveRecord::Schema.define(version: 20150510135907) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "chunk_walls", force: :cascade do |t|
-    t.string   "title"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "chunks", force: :cascade do |t|
-    t.string   "title"
-    t.string   "textfield"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
   create_table "cockpits", force: :cascade do |t|
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "comments", force: :cascade do |t|
-    t.text     "textfield"
-    t.string   "title"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
