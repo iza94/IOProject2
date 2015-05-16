@@ -1,0 +1,2 @@
+module ChunkWallsHelper
+end

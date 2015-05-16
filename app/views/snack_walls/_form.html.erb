@@ -1,0 +1,21 @@
+<%= form_for(@snack_wall) do |f| %>
+  <% if @snack_wall.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@snack_wall.errors.count, "error") %> prohibited this snack_wall from being saved:</h2>
+
+      <ul>
+      <% @snack_wall.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :title %><br>
+    <%= f.text_field :title %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
